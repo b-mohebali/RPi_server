@@ -17,7 +17,7 @@ import com.pi4j.io.gpio.RaspiPin;
 public class WebController {
 	@RequestMapping("/firstMethod")
 	public String home() {
-		return "Hello world!";
+		return "Hello world! 123";
 	}
 	
 	@RequestMapping("/blink")
