@@ -12,8 +12,7 @@ public class WebSecurityConfig {
 	@Bean
 	public UserDetailsService userDetailsService() {
 		InMemoryUserDetailsManager manager = new InMemoryUserDetailsManager();
-		manager.createUser(User.withUsername("behshad").password("bebish").roles("USER").build());
-		manager.createUser(User.withUsername("nihan").password("bebish").roles("USER").build());
+		manager.createUser(User.withUsername("behshad").password("pass").roles("USER").build());
 		return manager;
 	}
 	
